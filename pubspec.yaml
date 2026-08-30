@@ -1,0 +1,17 @@
+name: my_ai_commerce_v12
+description: MY AI COMMERCE V12 Final Build Package
+publish_to: none
+version: 12.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  pdf: ^3.10.7
+  share_plus: ^7.2.1
+
+flutter:
+  uses-material-design: true
